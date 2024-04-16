@@ -141,8 +141,8 @@ Success! Enabled the aws secrets engine at: aws/
 ### Configure aws engine
 ```
 $ vault write aws/config/root \
-    access_key=AKIAI45GLQPBX6CSENIQ \
-    secret_key=z1Pdn06b3TnpG9Gwj3ppPSOlAsu08Qw99PUWeB \
+    access_key= \
+    secret_key= \
     region=us-east-1
 
 Success! Data written to: aws/config/root
@@ -178,8 +178,8 @@ Key                Value
 lease_id           aws/creds/my-role/7qgsZmIyaaBZT4yQboNdFW7a
 lease_duration     168h
 lease_renewable    true
-access_key         AKIAJIKZCPA4R53C3NQQ
-secret_key         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
+access_key         
+secret_key         
 security_token     <nil>
 ```
 ### Revoking the aws secret
